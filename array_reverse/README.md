@@ -12,4 +12,4 @@ I took the approach of making a for loop that loops through the input array by t
 
 ## Solution
 
-![whiteboard](../array_reverse.png)
+![whiteboard](../assest/array_reverse.png)
