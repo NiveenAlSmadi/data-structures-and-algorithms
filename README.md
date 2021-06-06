@@ -5,7 +5,7 @@ This Repo for 401 Code Challenges
 
 | Challenge No. | Challenge Name | Challenge link |
 | --- | --- | --- |
-|Challenge 1 |  array-reverse | [solution Challenge 1](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/array-reverse/array_reverse/README.md) |
+|Challenge 1 |  array-reverse | [solution Challenge 1](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/tree/main/array_reverse) |
 | Challenge 2|      |[solution Challenge 2]() |
 | Challenge 3|      |[solution Challenge 3]()|
 | Challenge 4|     |[solution Challenge 4]()|
