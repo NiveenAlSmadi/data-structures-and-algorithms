@@ -36,4 +36,4 @@ _________________________________________________
 
 ## solution 
 
-![whiteboard](/linked-list.jpg)
+![whiteboard](linked-list.jpg)
