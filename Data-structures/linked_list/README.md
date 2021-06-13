@@ -26,6 +26,14 @@ Challenge 06 13/6/2021
 - ` name.insert(value)`= Adds a node of a value to the head of LinkedList
 - ` name.includes(value)`=Return T/F if value is in the linked list or not
 - ` name.__str__(value)`=   "{ a } -> { b } -> { c } -> NULL" / Loop over all nodes / print all values in one line
-- `name.append(value)`= Adds a node of a value to the end of LinkedList
+- ` name.append(value)`= Adds a node of a value to the end of LinkedList
 - `name.insertBefor(self,value,newVal)`= which add a new node with the given newValue immediately before the first value node.
--`name.insertAfter(self,value,newVal)`=which add a new node with the given newValue immediately after the first value node
+- `name.insertAfter(self,value,newVal)`=which add a new node with the given newValue immediately after the first value node
+
+
+_________________________________________________
+
+
+## solution 
+
+![whiteboard](/linked-list.jpg)
