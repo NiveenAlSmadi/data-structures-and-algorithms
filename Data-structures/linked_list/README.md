@@ -29,7 +29,7 @@ Challenge 06 13/6/2021
 - ` name.append(value)`= Adds a node of a value to the end of LinkedList
 - `name.insertBefor(self,value,newVal)`= which add a new node with the given newValue immediately before the first value node.
 - `name.insertAfter(self,value,newVal)`=which add a new node with the given newValue immediately after the first value node
- `kthFromEnd`: Return the node’s value that is k from the end of the linked list
+-`kthFromEnd`= Return the node’s value that is k from the end of the linked list
 
 
 _________________________________________________
