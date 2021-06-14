@@ -28,8 +28,9 @@ Challenge 06 13/6/2021
 - ` name.__str__(value)`=   "{ a } -> { b } -> { c } -> NULL" / Loop over all nodes / print all values in one line
 - ` name.append(value)`= Adds a node of a value to the end of LinkedList
 - `name.insertBefor(self,value,newVal)`= which add a new node with the given newValue immediately before the first value node.
-- `name.insertAfter(self,value,newVal)`=which add a new node with the given newValue immediately after the first value node
--`kthFromEnd`= Return the node’s value that is k from the end of the linked list
+- `name.insertAfter(self,value,newVal)`=which add a new node with the given newValue immediately after the first value node.
+- `kthFromEnd`= Return the node’s value that is k from the end of the linked list
+
 
 
 _________________________________________________
