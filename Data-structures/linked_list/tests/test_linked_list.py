@@ -106,3 +106,20 @@ def test_inseartAfter():
     actual=List.__str__()
     expected='{1}-> {2}-> {22}-> {3}-> {42}-> {4}-> {5}-> {6}-> {72}-> NULL'
     assert actual == expected
+
+
+def test_kth_from_end():
+    List=lists()
+    List.kthFromEnd(0)
+    actual=List.kthFromEnd(0)
+    expected=6
+    assert actual == expected
+
+def test_kth_from_end1():
+    List=lists()
+    List.kthFromEnd(3)
+    actual=List.kthFromEnd(3)
+    expected=3
+    assert actual == expected
+
+

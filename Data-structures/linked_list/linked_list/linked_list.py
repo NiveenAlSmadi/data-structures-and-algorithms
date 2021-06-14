@@ -1,4 +1,4 @@
-from typing import List
+
 
 
 class Node:
@@ -122,5 +122,41 @@ class Linkedlist:
         else:
             new_node = Node(newVal)
             new_node.next = current.next
-            current.next = new_node  
+            current.next = new_node
 
+              
+
+              
+    def kthFromEnd(self,k):
+
+
+
+        count=0
+        Current =self.head
+        while Current.next is not  None:
+            count+=1
+            Current=Current.next
+        k_value=count-k
+        Current =self.head
+        if k_value >=0:
+            for i in range(k_value+1):
+                
+                value=Current.value
+                Current=Current.next
+            return value
+        else:
+            raise Exception('the value not exisit  ')    
+
+
+
+
+
+if __name__ == "__main__":
+
+        List =Linkedlist()
+        List.insert(46)
+        List.append(55)
+        List.append(66)
+        List.append(10)
+        List.kthFromEnd(0)
+        print(List)       
