@@ -20,6 +20,14 @@ Challenge 06 13/6/2021
 
 -starting time:7:30pm
 -Finish time:9:30pm
+_____________________________________________
+
+Challenge 07 14/6/2021
+
+-starting time:7:30pm
+-Finish time:8:30pm
+
+
 
 ## API
 - `name=linkedlist()`= to creat a new linked list
