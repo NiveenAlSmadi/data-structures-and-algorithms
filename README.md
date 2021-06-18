@@ -10,6 +10,6 @@ This Repo for 401 Code Challenges
 | Challenge 3| array-binary-search   |[solution Challenge 3](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/tree/main/array_binary_search)|
 | Challenge 4|  Interview 1 |[solution Challenge 4](https://docs.google.com/spreadsheets/d/1QAqFmAar__1NAZXZnV552ZY-tjh-HnvDEqDysWngaDs/edit?usp=sharing)|
 | Challenge 5 6 7| linked-list |[solution Challenge](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/linked_list/README.md)|
-| Challenge 8|     |[solution Challenge 8]()|
-| Challenge 9|     |[solution Challenge 9]()|
-| Challenge 10|     |[solution Challenge 10]()|
+| Challenge 8|  ll-zip   |[solution Challenge 8](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/ll_zip/README.md)|
+| Challenge 9|  Interview 2   |[solution Challenge 9](https://docs.google.com/spreadsheets/d/1mmmp01W54UL7W3Bam8q-XkdVdtf-VES0d0ojhaMsVlk/edit#gid=1807550832)|
+| Challenge 10| Stack&Queue  |[solution Challenge 10](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/Data-structures/stacks_and_queues/README.md)|
