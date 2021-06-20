@@ -13,20 +13,10 @@ class PseudoQueue :
         self.rear=self.first_stack.top.value
 
 
-    # def dequeue(self):
-           
-    #     if self.first_stack.top :
-    #         stack1 = self.first_stack
-    #         while not stack1.isEmpty():
-
-    #             self.secand_stack.push(stack1.pop())
-
-    #         poped_val = self.secand_stack.pop()
-    #         self.front = self.secand_stack.top
-    #         return poped_val
 
 
     def dequeue(self):
+        
         if self.first_stack.top :
             stack1 = self.first_stack
             while not stack1.isEmpty():
