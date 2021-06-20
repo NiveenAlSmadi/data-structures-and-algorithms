@@ -14,4 +14,4 @@ The Stack instances have only push, pop, and peek methods. You should use your o
 
 ## Solution
 
-![whiteboard](/sq.jpg)
+![whiteboard](sq.jpg)
