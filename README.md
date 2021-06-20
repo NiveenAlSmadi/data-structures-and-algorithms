@@ -13,3 +13,4 @@ This Repo for 401 Code Challenges
 | Challenge 8|  ll-zip   |[solution Challenge 8](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/ll_zip/README.md)|
 | Challenge 9|  Interview 2   |[solution Challenge 9](https://docs.google.com/spreadsheets/d/1mmmp01W54UL7W3Bam8q-XkdVdtf-VES0d0ojhaMsVlk/edit#gid=1807550832)|
 | Challenge 10| Stack&Queue  |[solution Challenge 10](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/Data-structures/stacks_and_queues/README.md)|
+| Challenge 11| Queue with 2 stack  |[solution Challenge 10](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/Data-structures/queue_with_stacks/README.md)|
