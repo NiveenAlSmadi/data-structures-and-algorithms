@@ -5,9 +5,9 @@ This Repo for 401 Code Challenges
 
 | Challenge No. | Challenge Name | Challenge link |
 | --- | --- | --- |
-| Challenge 1 |  array-reverse | [solution Challenge 1](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/tree/main/array_reverse) |
-| Challenge 2|  array-shift |[solution Challenge 2](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/tree/main/array_shift) |
-| Challenge 3| array-binary-search   |[solution Challenge 3](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/tree/main/array_binary_search)|
+| Challenge 1 |  array-reverse | [solution Challenge 1](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/array_reverse/README.md) |
+| Challenge 2|  array-shift |[solution Challenge 2](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/array_shift/README.md) |
+| Challenge 3| array-binary-search   |[solution Challenge 3](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/array_binary_search/README.md)|
 | Challenge 4|  Interview 1 |[solution Challenge 4](https://docs.google.com/spreadsheets/d/1QAqFmAar__1NAZXZnV552ZY-tjh-HnvDEqDysWngaDs/edit?usp=sharing)|
 | Challenge 5 6 7| linked-list |[solution Challenge](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/linked_list/README.md)|
 | Challenge 8|  ll-zip   |[solution Challenge 8](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/ll_zip/README.md)|
