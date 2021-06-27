@@ -83,10 +83,6 @@ class Binary_Search_Tree(Binary_Tree):
                   current_node.right = Node(value)
                   return
 
-
-
-
-
     def contains(self,value):
         if  not self.root:
             return "This is empty tree"
@@ -103,3 +99,30 @@ class Binary_Search_Tree(Binary_Tree):
             else:
                 current_node=current_node.left
         return False
+
+
+
+    def find_maximum_value(self):
+
+        if  self.root == None:
+            return "This is empty tree"
+
+            
+        node=self.root
+        global max_value
+        max_value=node.value
+        def maximum(node):
+            global max_value
+            if not node :
+                return max_value
+
+            if node.value>max_value:
+                max_value=node.value
+            maximum(node.right)
+            maximum(node.left)
+        maximum(self.root)
+        return max_value    
+
+
+
+

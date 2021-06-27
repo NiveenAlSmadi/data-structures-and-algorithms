@@ -48,13 +48,23 @@ def test_in_order(prepared_tree):
 def test_Post_order(prepared_tree):
     assert prepared_tree.Post_order() == ['D', 'E', 'B', 'F', 'C', 'A']
 
-
+#Can successfully cheack a value on tree if contains or not 
 def test_contains():
     bst = Binary_Search_Tree()
     bst.add(10)
     assert bst.contains(20) == False
     assert bst.contains(4) == False
 
+#Can successfully return a maximum value on tree 
+def test_maximum_value():
+    bst = Binary_Search_Tree()
+    bst.add(10)
+    bst.add(12)
+    bst.add(21)
+    bst.add(50)
+    bst.add(1000)
+    bst.add(700)
+    assert bst.find_maximum_value()== 1000
 
 
 @pytest.fixture
