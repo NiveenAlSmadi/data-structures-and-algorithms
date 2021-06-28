@@ -1,9 +1,53 @@
 class Node:
+    
     def __init__(self,value):
         self.value=value
         self.left=None
-        self.right=None 
+        self.right=None
+        self.next=None 
+
+
+class Queue():
+
+    def __init__(self):
+        self.front=None
+        self.rear=None
+
+
+
+    def enqueue(self , value):
+        node=value
+        if self.front ==None:
+            self.front=node
+            self.rear=node
+        else:
+            self.rear.next=node    
+            self.rear=node
+
+
+    def dequeue(self):
         
+        try:
+            self.front.value
+
+        except:
+            return "This is Empty queue"
+        else:
+            temp=self.front
+            self.front=temp.next
+            temp.next=None
+            return temp
+
+
+
+    def peek(self):
+        try:
+            return self.front.value
+        except:
+            return "This is Empty queue"
+
+
+
 class Binary_Tree:
 
     def __init__(self): 
@@ -58,6 +102,47 @@ class Binary_Tree:
 
         traversal(self.root)
         return output
+    
+
+    def find_maximum_value(self):
+
+        if  self.root == None:
+            return "This is empty tree"
+
+            
+        node=self.root
+        global max_value
+        max_value=node.value
+        def maximum(node):
+            global max_value
+            if not node :
+                return max_value
+
+            if node.value>max_value:
+                max_value=node.value
+            maximum(node.right)
+            maximum(node.left)
+        maximum(self.root)
+        return max_value    
+
+
+
+    def breadth_first(self):
+
+        output=[]
+        breadth =Queue()
+        breadth.enqueue(self.root)
+        
+        while breadth.front:
+            n= breadth.dequeue()
+            output.append(n.value)
+            if n.left:
+                  breadth.enqueue(n.left)
+            if n.right:
+                breadth.enqueue(n.right)
+        return output       
+
+
 
 
 class Binary_Search_Tree(Binary_Tree):
@@ -102,27 +187,14 @@ class Binary_Search_Tree(Binary_Tree):
 
 
 
-    def find_maximum_value(self):
-
-        if  self.root == None:
-            return "This is empty tree"
-
-            
-        node=self.root
-        global max_value
-        max_value=node.value
-        def maximum(node):
-            global max_value
-            if not node :
-                return max_value
-
-            if node.value>max_value:
-                max_value=node.value
-            maximum(node.right)
-            maximum(node.left)
-        maximum(self.root)
-        return max_value    
-
-
-
+if __name__ == '__main__':
+    bst = Binary_Search_Tree()
+    bst.add(10)
+    bst.add(8)
+    bst.add(20)
+    bst.add(10)
+    bst.add(25)
+    bst.add(88)
+    bst.add(7)
+    print(bst.breadth_first())
 

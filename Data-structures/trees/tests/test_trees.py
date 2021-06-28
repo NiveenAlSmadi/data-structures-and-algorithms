@@ -1,6 +1,6 @@
 import pytest
 from trees import __version__
-from trees.tree import Binary_Tree, Node,Binary_Search_Tree
+from trees.tree import Binary_Tree, Node,Binary_Search_Tree,Queue
 
 def test_version():
     assert __version__ == '0.1.0'
@@ -57,7 +57,7 @@ def test_contains():
 
 #Can successfully return a maximum value on tree 
 def test_maximum_value():
-    bst = Binary_Search_Tree()
+    bst =Binary_Search_Tree()
     bst.add(10)
     bst.add(12)
     bst.add(21)
@@ -65,6 +65,19 @@ def test_maximum_value():
     bst.add(1000)
     bst.add(700)
     assert bst.find_maximum_value()== 1000
+
+ #Can successfully return list of all values in the tree, in the order they were encountered  
+def test_breadth_first():
+    bt =  Binary_Search_Tree()
+    bt.add(10)
+    bt.add(12)
+    bt.add(21)
+    bt.add(50)
+    bt.add(1000)
+    bt.add(700)
+    assert bt.breadth_first()== [10,12,21,50,1000,700]
+
+
 
 
 @pytest.fixture

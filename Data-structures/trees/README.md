@@ -58,3 +58,36 @@ Write the following method for the Binary Tree class
 
 ## Solution :
 ![img](max.jpg)
+
+_________________________________________________________________________________________________________________
+
+
+
+### Challenge-17
+Write a function called breadth first
+- Arguments: tree
+- Return: list of all values in the tree, in the order they were encountered
+`Challenge Type`: Code Challenge / Algorithm
+
+
+## Approach & Efficiency
+
+- O(log(n))
+
+
+## API
+- class Tree :
+- `preOrder` : priting the values of the tree by the order of `root >> left >> right`
+- `inOrder` : priting the values of the tree by the order of `left >> root >> right`
+- `postOrder`: priting the values of the tree by the order of `left >> right >> root`
+- `find_maximum_value` : Find the maximum value of a binary tree
+- `tree-breadth-first` :list of all values in the tree, in the order they were encountered 
+
+- class Binary_Search_Tree:
+- `add` : add anode to the tree according to its value
+- `Contains` : check if there is a node with tha same value.
+
+
+
+## Solution :
+![img](first.jpg)
