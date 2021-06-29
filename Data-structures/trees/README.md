@@ -91,3 +91,36 @@ Write a function called breadth first
 
 ## Solution :
 ![img](first.jpg)
+ ___________________________________________________________________________________________________________________________
+
+ ### Challenge-18
+Conduct “FizzBuzz” on a k-ary tree while traversing through it to create a new tree.
+
+Set the values of each of the new nodes depending on the corresponding node value in the source tree.
+
+- Arguments: k-ary tree
+- Return: new k-ary tree
+`Challenge Type`: Code Challenge / Algorithm
+
+
+## Approach & Efficiency
+
+- O(log(n))
+
+
+## API
+- class Tree :
+- `preOrder` : priting the values of the tree by the order of `root >> left >> right`
+- `inOrder` : priting the values of the tree by the order of `left >> root >> right`
+- `postOrder`: priting the values of the tree by the order of `left >> right >> root`
+- `find_maximum_value` : Find the maximum value of a binary tree
+- `tree-breadth-first` :list of all values in the tree, in the order they were encountered 
+- `tree-fizz-buzz` :Conduct “FizzBuzz” on a k-ary tree while traversing through it to create a new tree.
+- class Binary_Search_Tree:
+- `add` : add anode to the tree according to its value
+- `Contains` : check if there is a node with tha same value.
+
+
+
+## Solution :
+![img](fizz.jpg)

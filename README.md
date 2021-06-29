@@ -19,3 +19,4 @@ This Repo for 401 Code Challenges
 | Challenge 14| Tree |[solution Challenge 14](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/trees/README.md|)
 | Challenge 15| max in Tree |[solution Challenge 15](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/trees/README.md|)
 | Challenge 16| breadth_first |[solution Challenge 16](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/trees/README.md|)
+| Challenge 17| fizz_buzz_tree |[solution Challenge 17](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/trees/README.md|)
