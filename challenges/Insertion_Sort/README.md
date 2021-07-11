@@ -14,5 +14,5 @@ following the Pseudocode
 
 ## Solution
 
-- BLOG :[md file](https://github.com/NiveenAlSmadi/)
-- code : [py](https://github.com/NiveenAlSmadi/)
+- BLOG :[md file](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/Insertion_Sort/BLOG.md)
+- code : [py](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/Insertion_Sort/insertion_sort.py)
