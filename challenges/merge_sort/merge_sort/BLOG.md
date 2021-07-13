@@ -75,8 +75,8 @@ array_sorted = [4,8,15,16,23,42]
 ```
 
 ## Efficency
-- Time: Θ(n log(n))
+- Time: O(n log(n))
 
 
-- Space: O(1)
-No additional space is being created. This array is being sorted in place…keeping the space at constant O(1).
+- Space: O(n)
+
