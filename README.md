@@ -16,10 +16,12 @@ This Repo for 401 Code Challenges
 | Challenge 11| Queue with 2 stack  |[solution Challenge 11](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/queue_with_stacks/README.md)|
 | Challenge 12| fifo_animal_shelter |[solution Challenge 12](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/fifo_animal_shelter/README.md)|
 | Challenge 13| multi_bracket_validation |[solution Challenge 13](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/multi_bracket_validation/README.md)|
+
 | Challenge 14| Tree |[solution Challenge 14](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/trees/README.md)|
 | Challenge 15| max in Tree |[solution Challenge 15](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/trees/README.md)|
 | Challenge 16| breadth_first |[solution Challenge 16](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/trees/README.md)|
 | Challenge 17| fizz_buzz_tree |[solution Challenge 17](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/trees/README.md)|
 | Challenge 26| InsertionSort |[solution Challenge 26](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/Insertion_Sort/README.md)|
 | Challenge 27| merge_sort |[solution Challenge 27](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/merge_sort/README.md)|
+| Challenge 28| quick_Sort |[solution Challenge 28](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/quick_sort/README.md)|
 
