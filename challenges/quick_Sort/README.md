@@ -17,4 +17,4 @@ following the Pseudocode
 ## Solution
 ![whiteboarding-Niveen](whiteboared.jpg)
 - BLOG :[md file](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/quick_Sort/BLOG.md)
-- code : [py](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/quick_Sort/quick_Sort/merge_sort/code.py)
+- code : [py](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/quick_Sort/quick_sort/code.py)
