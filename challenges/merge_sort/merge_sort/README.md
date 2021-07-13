@@ -15,5 +15,5 @@ following the Pseudocode
 
 ## Solution
 ![whiteboarding-Niveen](whiteboard.jpg)
-- BLOG :[md file](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/merge_sort/BLOG.md)
+- BLOG :[md file](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/merge_sort/merge_sort/BLOG.md)
 - code : [py](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/merge_sort/merge_sort/merge_sort/code.py)
