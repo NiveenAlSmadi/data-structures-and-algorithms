@@ -23,4 +23,5 @@ This Repo for 401 Code Challenges
 | Challenge 26| InsertionSort |[solution Challenge 26](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/Insertion_Sort/README.md)|
 | Challenge 27| merge_sort |[solution Challenge 27](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/merge_sort/README.md)|
 | Challenge 28| quick_Sort |[solution Challenge 28](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/quick_sort/README.md)|
+| Challenge 30| Hash_table|[solution Challenge 30](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/hash_table/README.md)|
 
