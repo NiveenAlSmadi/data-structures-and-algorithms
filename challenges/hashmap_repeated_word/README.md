@@ -2,7 +2,7 @@
 Find the first repeated word in a book.
 
 ## Whiteboard Process
-![board](cc32.jpg)
+![board](cc31.jpg)
 
 ## Approach & Efficiency
 

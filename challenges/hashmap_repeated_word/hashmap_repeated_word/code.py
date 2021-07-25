@@ -7,7 +7,7 @@ def repeated_word(string):
         if word in words:
             return word
         words.append(word)
-        
+    return " no repeated word found "    
 
 
 if __name__ == '__main__':
