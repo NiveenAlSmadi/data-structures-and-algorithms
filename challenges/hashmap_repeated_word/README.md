@@ -14,5 +14,5 @@ Write a function called repeated word that finds the first word to occur more th
 - O(1) for Time 
 - O(1) for space 
 ## Solution
-- code : [py]()
-- test : [py ]()
+- code : [py](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/hashmap_repeated_word/hashmap_repeated_word/code.py)
+- test : [py ](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/hashmap_repeated_word/tests/test_hashmap_repeated_word.py)
