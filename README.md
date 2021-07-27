@@ -25,5 +25,6 @@ This Repo for 401 Code Challenges
 | Challenge 28| quick_Sort |[solution Challenge 28](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/quick_sort/README.md)|
 | Challenge 30| Hash_table|[solution Challenge 30](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/hash_table/README.md)|
 | Challenge 31| repeated_word|[solution Challenge 31](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/hashmap_repeated_word/README.md)|
+| Challenge 32| tree-intersection|[solution Challenge 32](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/tree_intersection/README.md)|
 
 
