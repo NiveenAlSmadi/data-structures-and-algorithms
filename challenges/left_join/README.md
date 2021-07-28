@@ -20,5 +20,5 @@ Return: The returned data structure that holds the results is up to you. It does
 
 
 ## Solution
-- code : [py](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/left-join/left-join/code.py)
-- test : [py ](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/left-join/tests/left-join.py)
+- code : [py](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/left_join/left_join/code.py)
+- test : [py ](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/left_join/tests/test_left_join.py)
