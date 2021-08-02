@@ -1,3 +1,6 @@
+from .queue  import *
+
+
 class Node():
     def __init__(self,value):
         self.value=value
@@ -33,5 +36,45 @@ class Graphs():
 
     def size(self):
         return len(self.adjacency_list) 
-        
+
+
+
+    def breadth_first(self,node):
+
+       breadth=Queue()
+       visited=[]
+       nodes=[]
+       breadth.enqueue(node)
+       visited.append(node)
+       while breadth.front:
+            front=breadth.dequeue()
+            nodes.append(front.value)
+            for child in self.adjacency_list[front]:
+                if child.node not in visited:
+                   visited.append(child.node)
+                   breadth.enqueue(child.node)
+       return nodes         
+
+
+
+
+
+if __name__=="__main__":
+    g=Graphs()
+    a=g.add_node('a')
+    b=g.add_node('b')
+    c=g.add_node('c')
+
+    g.add_Edge(a,b,5)
+    g.add_Edge(b,c,4)  
+    g.add_Edge(c,a,3)
+    g.add_Edge(b,a,1)
+
+    print(g.breadth_first(a))
+
+
+
+
+
+
                

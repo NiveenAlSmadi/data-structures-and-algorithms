@@ -61,3 +61,48 @@ def test_get_neighbors():
 
     assert neighbor_edge.node.value == 'smadi'
     assert neighbor_edge.weight == 10
+
+
+def test_breadth_first_1():
+    g=Graphs()
+    a=g.add_node('a')
+    b=g.add_node('b')
+    c=g.add_node('c')
+
+    g.add_Edge(a,b,5)
+    g.add_Edge(b,c,4)  
+    g.add_Edge(c,a,3)
+    assert g.breadth_first(a)==['a', 'b', 'c']
+
+def test_breadth_first_2():
+    g=Graphs()
+    a=g.add_node('a')
+    b=g.add_node('b')
+    c=g.add_node('c')
+    d=g.add_node('d')
+    e=g.add_node('e')
+
+    g.add_Edge(a,b,5)
+    g.add_Edge(a,c,4)  
+    g.add_Edge(c,d,3)
+    g.add_Edge(c,e,1)
+    assert g.breadth_first(a)==['a', 'b', 'c','d','e']
+
+
+def test_breadth_first_3():
+    g=Graphs()
+    a=g.add_node('Pandora')
+    b=g.add_node('Arendelle')
+    c=g.add_node('Metroville')
+    d=g.add_node('Monstroplolis')
+    e=g.add_node('Narnia')
+    f=g.add_node('Naboo')
+    g.add_Edge(a,b,5)
+    g.add_Edge(b,c,4)  
+    g.add_Edge(b,d,3)
+    g.add_Edge(c,e,1)
+    g.add_Edge(c,f,1)
+    assert g.breadth_first(a)==['Pandora', 'Arendelle', 'Metroville', 'Monstroplolis', 'Narnia', 'Naboo']
+
+
+    
