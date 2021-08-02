@@ -27,4 +27,4 @@ O(1)
 
 ## whiteboard CC36
 
-![cc36]()
+![cc36](cc36.jpg)
