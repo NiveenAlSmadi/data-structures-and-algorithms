@@ -23,8 +23,14 @@ O(1)
 - `get neighbors`:Returns a collection of edges connected to the given node , Include the weight of the connection in the returned collection
 - `size`: Returns the total number of nodes in the graph
 - `bredth-first`: Return A collection of nodes in the order they were visited and Display the collection
+- `depth_first` : Return A collection of nodes in their pre-order depth-first traversal order
+
 
 
 ## whiteboard CC36
 
 ![cc36](cc36.jpg)
+
+## whiteboard CC37
+
+![cc37](cc37.jpg)
