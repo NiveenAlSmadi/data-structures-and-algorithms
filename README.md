@@ -28,5 +28,7 @@ This Repo for 401 Code Challenges
 | Challenge 32| tree-intersection|[solution Challenge 32](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/tree_intersection/README.md)|
 | Challenge 33| left-join|[solution Challenge 33](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/left_join/README.md)|
 | Challenge 34| graphs |[solution Challenge 34](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/graph/README.md)|
-| Challenge 36| graphs.breadth_first |[solution Challenge 36](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/graph/README.md)|
+| Challenge 36| graphs-breadth_first |[solution Challenge 36](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/graph/README.md)|
 | Challenge 37| graph-business-trip |[solution Challenge 37](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/challenges/graph-business-trip/README.md)|
+| Challenge 38| graph-depth_first|[solution Challenge 38](https://github.com/NiveenAlSmadi/data-structures-and-algorithms/blob/main/Data-structures/graph/README.md)|
+
