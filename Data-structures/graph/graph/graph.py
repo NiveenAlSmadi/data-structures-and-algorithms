@@ -1,4 +1,4 @@
-from .queue  import *
+from .queue_and_stack import Queue
 
 
 class Node():
@@ -53,9 +53,27 @@ class Graphs():
                 if child.node not in visited:
                    visited.append(child.node)
                    breadth.enqueue(child.node)
-       return nodes         
+       return nodes
 
 
+
+def graph_depth_first(graph,node):
+
+    visted= []
+    stack = [node]
+    while(len(stack)!= 0):
+        s = stack.pop()
+        if s not in visted:
+            visted.append(s)
+        if s not in graph:
+            continue
+        for neighbor in graph[s]:
+            stack.append(neighbor)
+
+    return" ".join(visted)   
+       
+       
+     
 
 
 
@@ -70,8 +88,17 @@ if __name__=="__main__":
     g.add_Edge(c,a,3)
     g.add_Edge(b,a,1)
 
-    print(g.breadth_first(a))
 
+    graph = {"A":["B","C", "D"],
+           "B":["E"],
+           "C":["F","G"],
+           "D":["H"],
+           "E":["I"],
+           "F":["J"]}
+    
+    DFS =graph_depth_first(graph, "A")
+
+    print(DFS)
 
 
 
