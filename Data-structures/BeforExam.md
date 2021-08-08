@@ -191,3 +191,58 @@ def Height(self,root):
      return 0
   return 1+ maxi(self.Height(root.right),self.Height(root.left))
 ```
+
+
+
+```
+
+def max_min(self):
+      max=[self.root.value]
+      min =[self.root.value]
+      node=self.root
+      def travers(node):
+           if node.value>max[0]:
+                max[0]=node.value
+           if node.value<min[0]:
+                min[0]=node.value
+            travers(right)
+            travers(left)
+       travers(self.root)
+       return min[0],max[0]
+
+def is_BST(tree):
+    flag=[True]
+    node=tree.root
+    if node :
+        def travers(node):
+            if (node.left.value < node.value and
+                  node.right.value > node.value ):
+                 travers(node.left)
+                 travers(node.right)
+            else:
+               flag[0]=False
+         travers(node)
+         return flag
+
+def longest_path (root): 
+ left_side=[]
+ right_sid=[]
+ if node is None :
+       return [ ]
+                  right_side=[root.value]+longest_path(root.right)
+
+left_side=[root.value]+longest_path(root.left)
+
+return path(left_side,right_side)
+           
+def path(path1,path2):
+     if len(path1)>len(path2):
+           return path1
+     else:
+          return path2
+```
+
+
+
+
+
