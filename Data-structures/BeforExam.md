@@ -170,19 +170,18 @@ class Tree:
 
 # ------------------------------------------- 
 
-def treavers(self,node1,node2):
-    if node1==None and node2==None :
-      return True 
-    if node1 is None or node2 is None :
-      return False
-    left=self.treavers(node1.left,node2.right)
-    right=self.treavers(node1.right,node2.left)
-    return(left and right and node1.value==node2.value)
-
-def is_symmetric(self):
-    node=self.root
-    if node:
-      return treavers(node,node)
+def isSymmetric(root):
+    def check(root1,root2):
+        if root1 is None and root2 is None:
+            return True 
+        
+        if (root1 is not None and root2 is not None):
+            if root1.value == root2.value:
+                return (check(root1.left , root2.right) and
+                 check(root1.right, root2.left))
+            
+            return False
+    return check(root, root)
 
 def maxi(a,b):
   return a if a>b else b
@@ -229,17 +228,14 @@ def longest_path (root):
  right_sid=[]
  if node is None :
        return [ ]
-                  right_side=[root.value]+longest_path(root.right)
+                  
+right_side=[root.value]+longest_path(root.right)
 
 left_side=[root.value]+longest_path(root.left)
 
-return path(left_side,right_side)
+return right_side if right_side > left_side else left_side
            
-def path(path1,path2):
-     if len(path1)>len(path2):
-           return path1
-     else:
-          return path2
+
 ```
 
 
