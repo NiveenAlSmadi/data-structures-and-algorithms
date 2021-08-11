@@ -135,6 +135,27 @@ class Tree:
     return total[0] 
           
             
+  
+  def delete_leaf(self,value):
+    node=self.root
+    if node :
+      def walk(node):
+        if node.left and node.left.value==value:
+          node.left=None
+        if node.right and node.right.value==value:
+          node.right=None 
+          walk(node.right) 
+          walk(node.left)
+      walk(self.root) 
+
+```
+
+
+----------------------------------------------------
+
+
+```
+
   def kth_maximum (self,k):
    max_values=[]
    def _walk(node):
@@ -155,21 +176,8 @@ class Tree:
        _walk(node.right)
      _walk(node)
      return min_values[k-1]
-  
-  def delete_leaf(self,value):
-    node=self.root
-    if node :
-      def walk(node):
-        if node.left and node.left.value==value:
-          node.left=None
-        if node.right and node.right.value==value:
-          node.right=None 
-          walk(node.right) 
-          walk(node.left)
-      walk(self.root) 
-
-# ------------------------------------------- 
-
+     
+     
 def isSymmetric(root):
     def check(root1,root2):
         if root1 is None and root2 is None:
@@ -183,17 +191,8 @@ def isSymmetric(root):
             return False
     return check(root, root)
 
-def maxi(a,b):
-  return a if a>b else b
-def Height(self,root):
-  if root is None :
-     return 0
-  return 1+ maxi(self.Height(root.right),self.Height(root.left))
-```
 
 
-
-```
 
 def max_min(self):
       max=[self.root.value]
@@ -209,19 +208,32 @@ def max_min(self):
        travers(self.root)
        return min[0],max[0]
 
-def is_BST(tree):
-    flag=[True]
-    node=tree.root
-    if node :
+def isbainary(tree):
+    result = [True]
+    node = tree.root 
+    if node:
         def travers(node):
-            if (node.left.value < node.value and
-                  node.right.value > node.value ):
-                 travers(node.left)
-                 travers(node.right)
-            else:
-               flag[0]=False
-         travers(node)
-         return flag
+            if node and node.left and node.right:
+                if node.value > node.left.value and node.value < node.right.value:
+                    travers(node.left)
+                    travers(node.right)
+                else:
+                    result[0] = False
+            if node and node.left :
+                if node.value > node.left.value:
+                    travers(node.left)
+                else:
+                    result[0] = False
+            if node and node.right :
+                if node.value < node.right.value:
+                    travers(node.right)
+                else:
+                    result[0] = False
+        travers(node)
+        return result[0]
+    return "empty tree"
+
+
 
 def longest_path (root): 
  left_side=[]
